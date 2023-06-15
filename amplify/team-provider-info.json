@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plantskyv2-staging-23506-authRole",
+      "UnauthRoleArn": "arn:aws:iam::362095673397:role/amplify-plantskyv2-staging-23506-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::362095673397:role/amplify-plantskyv2-staging-23506-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-plantskyv2-staging-23506-deployment",
+      "UnauthRoleName": "amplify-plantskyv2-staging-23506-unauthRole",
+      "StackName": "amplify-plantskyv2-staging-23506",
+      "StackId": "arn:aws:cloudformation:us-east-1:362095673397:stack/amplify-plantskyv2-staging-23506/3d7d6e70-0b25-11ee-a3f0-0eb8158e797f",
+      "AmplifyAppId": "d2oqxzn9vh7ns4"
+    },
+    "categories": {
+      "auth": {
+        "Plantskyv2": {}
+      }
+    }
+  }
+}

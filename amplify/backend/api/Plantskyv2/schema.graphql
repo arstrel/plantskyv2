@@ -1,0 +1,19 @@
+type MailingList @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  lastMessageSent: AWSDateTime
+  email: AWSEmail!
+}
+
+type Plant @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  location: String
+  detailsURL: String
+  description: String
+  lastWatered: AWSDateTime
+  nextWater: AWSDateTime
+  belongsTo: AWSEmail
+  firstNotificationSentAt: AWSDateTime
+  waterIntervalDays: Int
+}
+ 
