@@ -2,3 +2,4 @@
 
 Plants watering tracker
 Helps you to track your plants watering schedule
+Tracks watering schedule per plant
